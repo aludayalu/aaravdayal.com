@@ -173,7 +173,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://lumatozer.net/"
+          url: "https://lumatozer.net/"
         },
         {
           name: "Visit Project",
