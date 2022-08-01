@@ -171,15 +171,6 @@ const bigProjects = {
       projectName: "LTZ-Chain",
       projectDesc: "First in the world distributed p2p blockchain made in python which is lightning fast and light-weight.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://lumatozer.net/"
-        },
-        {
-          name: "Visit Project",
-          url: "https://github.com/aludayalu/LTZ-Chain"
-        }
-        //  you can add extra buttons here.
       ]
     },
     {
