@@ -178,10 +178,6 @@ const bigProjects = {
       projectName: "ALUShare",
       projectDesc: "P2P File sharing and hosting system.",
       footerLink: [
-        {
-          name: "Visit Project",
-          url: "https://github.com/Lumatozer/AluSHARE"
-        }
       ]
     }
   ],
