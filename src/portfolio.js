@@ -167,7 +167,7 @@ const bigProjects = {
   subtitle: "Some of my most valuable projects",
   projects: [
     {
-      image: require("./assets/images/gitlogo.png"),
+      image: require("./assets/images/github_logo.png"),
       projectName: "LTZ-Chain",
       projectDesc: "First in the world distributed p2p blockchain made in python which is lightning fast and light-weight.",
       footerLink: [
