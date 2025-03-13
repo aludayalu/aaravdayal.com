@@ -1,6 +1,22 @@
+<head>
+    <title>Aarav Dayal</title>
+    <meta name="description" content="Aarav Dayal is a 17 year old developer who is a System Design Architect and he builds and designs large-scale efficient architecture and infrastructure and scales them far beyond what has been achieved conventionally to date">
+</head>
+
 <h1 style="text-align: center; font-size: 50px; font-family: Agustina Regular">Aarav Dayal</h1>
 
-<img src="pfp.jpeg" style="float: right; height: 40vh; border-radius: 25px;" alt="pfp"></img>
+<div id="pfp_wrapper">
+    <img id="pfp" src="pfp.jpg" style="float: right; height: 25vh; border-radius: 25px;" alt="pfp"></img>
+</div>
+
+<script>
+    if (window.innerHeight>window.innerWidth) {
+        document.getElementById("pfp").style.float="none"
+        document.getElementById("pfp_wrapper").style.display="flex"
+        document.getElementById("pfp_wrapper").style.justifyContent="center"
+        document.getElementById("pfp_wrapper").style.alignItems="center"
+    }
+</script>
 
 <h2>About Me</h2>
 
@@ -49,7 +65,8 @@
         font-weight: normal;
         src: local("Agustina Regular"), url("Agustina.woff") format("woff");
     }
-</style>
 
-<title>Aarav Dayal</title>
-<meta name="description" content="Aarav Dayal is a 17 year old developer who is a System Design Architect and he builds and designs large-scale efficient architecture and infrastructure and scales them far beyond what has been achieved conventionally to date,">
+    li {
+        margin-top: 5px;
+    }
+</style>
