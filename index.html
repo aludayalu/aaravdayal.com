@@ -45,6 +45,20 @@
         <li><a href="https://www.linkedin.com/in/aaravdayal/">Linkedin</a> (unmaintained)</li>
         <li><a href="mailto:aarav@dayal.org">aarav@dayal.org</a></li>
     </ul>
+
+    <h2>Gallery</h2>
+
+    <p>(Doing this to make google show more images of mine upon searching my name)</p>
+
+    <div class="gallery">
+        <img src="gallery/1.jpeg">
+        <img src="gallery/2.jpeg">
+        <img src="gallery/3.jpeg">
+        <img src="gallery/4.jpeg">
+        <img src="gallery/5.jpeg">
+        <img src="gallery/6.jpeg">
+        <img src="gallery/7.jpeg">
+    </div>
 </body>
 
 <style>
@@ -63,6 +77,32 @@
         margin: 28px;
         font-family: monospace;
         font-size: 16px;
+    }
+
+    .gallery {
+        max-width: 1200px;
+        column-count: 4;
+        column-gap: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        border-radius: 12px;
+        break-inside: avoid;
+    }
+
+    @media (max-width: 1000px) {
+        .gallery { column-count: 3; }
+    }
+
+    @media (max-width: 700px) {
+        .gallery { column-count: 2; }
+    }
+
+    @media (max-width: 450px) {
+        .gallery { column-count: 1; }
     }
 </style>
 
