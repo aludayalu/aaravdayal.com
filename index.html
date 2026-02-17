@@ -175,10 +175,10 @@
 
 <body style="display: flex; justify-content: center; align-items: center;">
     <div style="max-width: 1200px;">
-        <h1 style="text-align: center; font-size: 50px; font-family: Agustina Regular">Aarav Dayal</h1>
+        <h1 style="text-align: center; font-size: 50px; font-family: Agustina Regular" id="signature">Aarav Dayal</h1>
 
         <div id="pfp_wrapper">
-            <img id="pfp" src="pfp.jpeg" style="float: right; height: 25vh; border-radius: 25px; margin-left: 14px;" alt="Aarav Dayal - Blockchain Architect, Founder of Lumatozer" title="Aarav Dayal">
+            <img id="pfp" src="pfp.jpeg" style="float: right; height: 30svh; border-radius: 25px; margin-left: 14px;" alt="Aarav Dayal - Blockchain Architect, Founder of Lumatozer" title="Aarav Dayal">
         </div>
 
         <h2>About Me</h2>
@@ -251,12 +251,6 @@
         font-size: 14px;
     }
 
-    @media (max-width: 768px) {
-        body {
-            font-size: 16px;
-        }
-    }
-
     .gallery {
         max-width: 1200px;
         column-count: 4;
@@ -295,8 +289,9 @@
         document.getElementById("pfp_wrapper").style.display="flex"
         document.getElementById("pfp_wrapper").style.justifyContent="center"
         document.getElementById("pfp_wrapper").style.alignItems="center"
-        document.body.style.fontSize = "200%"
-        document.querySelectorAll("li").forEach(el => el.style.marginTop = "28px");
+        document.querySelectorAll("li").forEach(el => el.style.marginTop = "14px");
+        document.getElementById("signature").style.fontSize = "40px"
+        document.body.style.marginLeft = document.body.style.marginRight = "10px"
     }
 </script>
 
