@@ -180,7 +180,7 @@
         <h1 style="text-align: center; font-size: 50px; font-family: Agustina Regular" id="signature">Aarav Dayal</h1>
 
         <div id="pfp_wrapper">
-            <img id="pfp" src="pfp.jpeg" style="float: right; height: 30svh; border-radius: 25px; margin-left: 14px;" alt="Aarav Dayal - Blockchain Architect, Founder of Lumatozer" title="Aarav Dayal">
+            <img id="pfp" src="pfp.jpeg" style="float: right; height: 30svh; border-radius: 25px; margin-left: 14px; margin-bottom: 14px;" alt="Aarav Dayal - Blockchain Architect, Founder of Lumatozer" title="Aarav Dayal">
         </div>
 
         <h2>About Me</h2>
@@ -268,7 +268,7 @@
     }
 
     @media (max-width: 1000px) {
-        .gallery { column-count: 3; }
+        .gallery { column-count: 4; }
     }
 
     @media (max-width: 700px) {
@@ -276,7 +276,7 @@
     }
 
     @media (max-width: 450px) {
-        .gallery { column-count: 1; }
+        .gallery { column-count: 2; }
     }
 </style>
 
@@ -294,6 +294,7 @@
         document.querySelectorAll("li").forEach(el => el.style.marginTop = "14px");
         document.getElementById("signature").style.fontSize = "40px"
         document.body.style.marginLeft = document.body.style.marginRight = "10px"
+        document.body.style.fontSize = "14px"
     }
 </script>
 
